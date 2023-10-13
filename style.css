@@ -1,0 +1,35 @@
+#greycol {
+    color:grey
+}
+.yellow {
+    color:yellow
+}
+h3:first-child {
+    color:pink
+}
+div+div>p {
+    color:red
+}
+div+h3+p {
+    color: green;
+}
+/* task 2 */
+.box ul {
+    border: solid green;
+}
+.box ul:hover {
+    background-color: blue;
+}
+ li:nth-child(2n) {
+    background-color: chartreuse;
+}
+li:nth-child(odd) {
+    background-color: aqua;
+}
+h1::first-letter {
+    font-size: 54px;
+    color: yellow;
+}
+.box h1:first-child {
+    text-shadow: 1px 2px 3px red
+}
